@@ -31,6 +31,15 @@ The coding challenges will be conducted during Ramadan nights. Stay tuned for up
 
 ---
 
+## 📬 Contact
+For any queries, feel free to reach out!
+
+📧 **Email:** [bintefarzana1992@gmail.com](mailto:)
+
+🌐 **GitHub:** [faryal16](https://github.com/faryal16)
+
+🚀 Happy Coding! 🎉
+
 **Join us on this exciting learning journey and make your Ramadan productive with coding!** 🌟
 
 Happy Coding! 🚀
