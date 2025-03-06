@@ -69,7 +69,7 @@ A simple and interactive unit conversion app built using **Streamlit**. This too
 ## 📬 Contact
 For any queries, feel free to reach out!
 
-📧 **Email:** [your-email@example.com](mailto:bintefarzana1992@gmail.com)
+📧 **Email:** [bintefarzana1992@gmail.com](mailto:)
 
 🌐 **GitHub:** [faryal16](https://github.com/faryal16)
 
