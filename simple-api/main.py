@@ -6,6 +6,7 @@ app = FastAPI()
 # we will build two simple get endpoits
 # side_hustles
 # money_quotes
+#motivational quotes
 
 side_hustles = [
     "Freelancing - Start offering your skills online!",
@@ -39,20 +40,37 @@ money_quotes = [
     "Money grows on the tree of persistence. – Japanese Proverb",
 ]
 
+# Motivational Quotes List
+motivational_quotes = [
+    "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
+    "Believe you can and you're halfway there. – Theodore Roosevelt",
+    "Don't watch the clock; do what it does. Keep going. – Sam Levenson",
+    "Your limitation—it’s only your imagination.",
+    "Push yourself, because no one else is going to do it for you.",
+    "Great things never come from comfort zones.",
+    "Dream it. Wish it. Do it.",
+    "Success doesn’t just find you. You have to go out and get it.",
+    "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "Dream bigger. Do bigger.",
+]
+
 @app.get("/side_hustles")
-def get_side_hustles(apiKey:str):
+def get_side_hustles():
     """Returns a random side hustles idea"""
-    if apiKey != "123456789":
-        return {"error" : "INvalid Api Key"}
+    
         
     return {
         "side_hustle": random.choice(side_hustles)
     }
     
 @app.get("/money_quotes")
-def get_money_quotes(apiKey : str):
+def get_money_quotes():
     """Return a random money quotes"""
-    if apiKey != "123456789":
-        return {"error" : "INvalid Api Key"}
+    
 
     return{"money_quotes": random.choice(money_quotes)}
+
+@app.get("/motivations")
+def get_motivated():
+    """Return a random motivational quotes"""
+    return{"quote_of_the_day": random.choice(motivational_quotes)}
