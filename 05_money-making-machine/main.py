@@ -12,7 +12,7 @@ def generate_money():
 # Function to fetch side hustle ideas
 def fetch_side_hustle():
     try:
-        response = requests.get('https://ramadancodingnights-simple-api.streamlit.app/side_hustles')
+        response = requests.get('https://fastapi-api-git-main-codewithfairys-projects.vercel.app/side_hustles')
         if response.status_code == 200:
             hustles = response.json()
             return hustles["side_hustle"]
@@ -24,7 +24,7 @@ def fetch_side_hustle():
 # Function to fetch money-making quotes
 def fetch_money_quote():
     try:
-        response = requests.get('https://ramadancodingnights-simple-api.streamlit.app/money_quotes')
+        response = requests.get('https://fastapi-api-git-main-codewithfairys-projects.vercel.app/money_quotes')
         if response.status_code == 200:
             money_quotes = response.json()
             return money_quotes['money_quotes']
@@ -36,7 +36,7 @@ def fetch_money_quote():
 # Function to fetch motivational quotes
 def fetch_quotes():
     try:
-        response = requests.get("https://ramadancodingnights-simple-api.streamlit.app/motivations")
+        response = requests.get("https://fastapi-api-git-main-codewithfairys-projects.vercel.app/motivations")
         if response.status_code == 200:
             quote = response.json()
             return quote["quote_of_the_day"]
