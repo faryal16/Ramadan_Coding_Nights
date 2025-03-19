@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Peace",
+        "author": "fairy",
+        "year": "2024",
+        "genre": "love",
+        "read": true
+    },
+    {
+        "title": "Agentic AI",
+        "author": "Zia Khan",
+        "year": "2025",
+        "genre": "IT",
+        "read": false
+    }
+]
